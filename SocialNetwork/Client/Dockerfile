@@ -18,7 +18,7 @@ COPY . ./
 
 # Arguments
 ARG REACT_APP_API_BASE_URL
-ENV REACT_APP_API_BASE_URL=${REACT_APP_API_BASE_URL}
+ENV REACT_APP_API_BASE_URL=http://3.93.33.38:8080
 
 # Build the application
 RUN npm run build
