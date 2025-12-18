@@ -2,7 +2,7 @@ import React from 'react';
 import { toast } from 'react-toastify';
 import { ToastComponent } from '../components/common'
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'http://3.93.33.38:8080';
 
 export default {
     getBaseUrl: () => {
