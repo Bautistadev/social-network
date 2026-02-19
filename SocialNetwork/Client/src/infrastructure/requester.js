@@ -1,4 +1,4 @@
-const BASE_URL = 'http://3.222.192.18:8080';
+const BASE_URL = 'http://100.53.243.86:8080';
 
 const getAuthHeader = () => {
     const token = localStorage.getItem("token");
