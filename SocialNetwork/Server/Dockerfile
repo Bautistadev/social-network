@@ -15,7 +15,7 @@ RUN mkdir -p target/dependency \
 #### Stage 2: Runtime
 FROM eclipse-temurin:11-jre-alpine
 
-ENV db_user=default_user \
+ENV db_username=default_user \
     db_password=default_password \
     db_host=localhost
 
