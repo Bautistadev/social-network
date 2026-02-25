@@ -67,29 +67,29 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
  ```
 
 ### Verificamos que la imagen ya se encuentra en AWS
-![alt text]({4BB5B4BA-4059-4186-AE0C-BDD2376D24CA}.png)
+<img width="1561" height="175" alt="image" src="https://github.com/user-attachments/assets/91897ff8-428e-4f92-afd3-8953f34160eb" />
 
 ### Creacion de instancias ECS
 
 #### Nos dirigimos hacia el servicio de ECS principalmente a la seccion de "Definicion de tareas" y hacemos clic en "Crear una nueva definicion de tarea"
-![alt text]({C2D2F65C-C5D0-49D3-9C65-DB4062220E85}.png)
+<img width="1908" height="261" alt="image" src="https://github.com/user-attachments/assets/8106c5c4-3597-4a79-ae8b-d9de6e3eb0e3" />
 
 ### Llenamos el formulario con los requisitos necesarios 
 
 #### Ingresamos el nombre de la familia que pertenecerá tarea a crear
-![alt text]({C8630A31-5373-4220-8647-C5B32FC9E734}.png)
+<img width="1097" height="156" alt="image" src="https://github.com/user-attachments/assets/6f5bac58-1eb1-4ed0-a33d-b9c5b715adbe" />
 
 #### La instancia la definimos como tipo Fargate o contenedores si servidor
-![alt text]({63F20F52-A2BD-4B10-BA8C-74FB28D73C46}.png)
+<img width="1048" height="267" alt="image" src="https://github.com/user-attachments/assets/b03fe5f5-d587-451d-890e-7a30b6bf8097" />
 
 #### Le indicamos la imagen a usar, haciendo en el explorador de imagenes de ECR o copiamos y pegamos la URI de la imagen
-![alt text]({63039CC4-5C8A-4906-9EA5-2E0827E73DB1}.png)
+<img width="1336" height="142" alt="image" src="https://github.com/user-attachments/assets/eed4f60b-e984-451f-9d13-146dcfadef21" />
 
 #### ⚠️ !IMPORTANTE: Mapear los puertos en donde se ejecutan las aplicaciones y definirlas en la instancia. En este caso es un codigo escrito en React, por defecto se usa el puerto 3000
-![alt text]({B6911D9C-F480-44A4-B278-FEFDD58C1E7A}.png)
+<img width="1339" height="194" alt="image" src="https://github.com/user-attachments/assets/91fb7488-12b1-419e-8333-d4b2d7cf0f81" />
 
 #### ⚠️ !IMPORTANTE: Ingresar las variables de entorno que son necesarias, en este caso la URI que apunta al backned (Se recomienda tener el servicio de Backend deplegado antes que el Frontend)
-![alt text]({506B16C0-98C1-45F9-8E94-3FADBF91F46A}.png)
+<img width="950" height="183" alt="image" src="https://github.com/user-attachments/assets/88491993-5422-4745-9ed6-c43ad6bdfd7a" />
 
 #### ✅ Finalizado estos, podremos hacer clic en "Crear"
 
@@ -98,41 +98,41 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
 #### Nos dirigimos a la seccion de "Clusteres" y hacemos click en "Crear cluster"
 
 #### llenamos el fomulario empezando por agregar un nombre 
-![alt text]({7935A41C-AAFD-42BC-B9E5-25200E183927}.png)
+<img width="1319" height="222" alt="image" src="https://github.com/user-attachments/assets/e8f4e1e8-8e87-49b2-8968-8969592dff7b" />
 
 #### Para el tipo de infraestructura volvemos a indicarle que sea solo de tipo "Fargate"
-![alt text]({CBA389FE-395D-4B3E-9ADC-0D8A4E486BB4}.png)
+<img width="628" height="216" alt="image" src="https://github.com/user-attachments/assets/440c688f-bf77-4160-aa6f-354f648665a2" />
 
 #### ✅ Finalizado esto, podremos hacer clic en "Crear"
-![alt text]({E3DF1736-651A-4B19-A86B-5B7B6E17C861}.png)
 
 ### Definicion de la Tarea a ejecutar en el Cluster.
 
 #### Ingresamos al cluter creado, haciendo click en el nombre dentro de la lista de clusteres creados.
-![alt text]({22A04485-0DBF-4B86-B630-5231F291425C}.png)
+<img width="1575" height="36" alt="image" src="https://github.com/user-attachments/assets/58c6c4ac-03ae-44f2-b526-cc099326cdc9" />
 
 #### Nos dirigimos hacia la seccion de tareas y hacemos clic en "Ejecutar nueva tarea"
-![alt text]({389B2B5C-07A5-4AC0-A662-1500B7D37FB3}.png)
+<img width="1588" height="123" alt="image" src="https://github.com/user-attachments/assets/3dd0bdf3-2808-4613-a63e-53d7d0497fa9" />
 
 #### Dentro de ese apartado , seleccionamos la familia de tareas a ejecutar
-![alt text]({4A125485-1DC1-4296-93F7-0CFC0918A2ED}.png)
+<img width="1077" height="225" alt="image" src="https://github.com/user-attachments/assets/59ab65f5-5cd1-4505-9cf5-c012e3a5827c" />
 
 #### La cantidad de tareas a lanzar depende del usuario, en este caso se ejecutará solo una, por lo que solo se creara 1 usa sola puera de enlace publica al servicio
-![alt text]({3FF28F6C-1EFA-4EB3-80F8-C6304C3B7325}.png)
+<img width="1106" height="88" alt="image" src="https://github.com/user-attachments/assets/d7577952-5862-473c-8b47-ba269922d606" />
 
 #### ⚠️ Es inportante que en el apartado de red definan bien VPC y la subred en la que se podrá acceder al servicio, en este caso se utlizará la VPC por defecto que viene creada en AWS y la subnet "us-east-1a"
-![alt text]({0603CCDE-E080-447A-8E7A-23EDD71080A9}.png)
+<img width="1370" height="358" alt="image" src="https://github.com/user-attachments/assets/a4f8ab82-e4fb-4bb9-9ab7-6c488e5351c4" />
+
+
 
 #### ⚠️ Es importante tambien definir a que grupo de seguridad pertenecerá esta instancia, ya que por temas de reglas de firedwall, podriamos tener impedimento el poder acceder al servicio desde internet
-![alt text]({E91B8DAC-C060-4E30-AA7A-47835D0AF3DB}.png)
+<img width="1176" height="211" alt="image" src="https://github.com/user-attachments/assets/46aa2ed6-cdf1-4ffa-ae61-8fa2e9ee9613" />
+
 
 ✅ Finalizado esto, podremos hacer clic en el boton de "Crear"
-![alt text]({737ABD75-ACA2-41C3-9A8D-CFDCFA1DF5E1}.png)
-
-![alt text]({95F90BAE-D870-4102-8135-3179B0F74DC8}.png)ç
-
+<img width="203" height="54" alt="image" src="https://github.com/user-attachments/assets/8f501542-779d-4a32-a4ba-f960abca3af1" />
+<img width="1593" height="238" alt="image" src="https://github.com/user-attachments/assets/f3e00367-f660-4fe9-9c2d-61c633934192" />
 
 ✅ Finalizado estos pasos, dentro de la tarea podremos entrar a nuestra web desplegada via la ip publica creada al crear la tarea.
 
-![alt text]({F1D6FC3B-A627-4806-8BB5-B9C5F0D2E9A6}.png)
-![alt text]({A74C5DAC-BDDB-4E9D-9A48-24843FFABCE6}.png)
+<img width="1756" height="668" alt="image" src="https://github.com/user-attachments/assets/3ed88821-d98f-4563-9394-08cf0298ec7c" />
+
