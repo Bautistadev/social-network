@@ -88,7 +88,7 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
 #### ⚠️ !IMPORTANTE: Mapear los puertos en donde se ejecutan las aplicaciones y definirlas en la instancia. En este caso es un codigo escrito en React, por defecto se usa el puerto 3000
 <img width="1339" height="194" alt="image" src="https://github.com/user-attachments/assets/91fb7488-12b1-419e-8333-d4b2d7cf0f81" />
 
-#### ⚠️ !IMPORTANTE: Ingresar las variables de entorno que son necesarias, en este caso la URI que apunta al backned (Se recomienda tener el servicio de Backend deplegado antes que el Frontend)
+#### ⚠️ !IMPORTANTE: Ingresar las variables de entorno que son necesarias, en este caso la URI que apunta al api gateway del backned (Se recomienda tener el servicio de Backend, deplegado antes que el Frontend)
 <img width="950" height="183" alt="image" src="https://github.com/user-attachments/assets/88491993-5422-4745-9ed6-c43ad6bdfd7a" />
 
 #### ✅ Finalizado estos, podremos hacer clic en "Crear"
