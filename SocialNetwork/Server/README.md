@@ -1,4 +1,4 @@
-# SoftUni Social Network - frontend
+# SoftUni Social Network - backend
 
 El proyecto abarca el desarrollo de una aplicación web orientada exclusivamente a la comunidad de una institución educativa, como la Universidad Tecnológica Nacional, permitiendo a sus miembros registrarse, crear y administrar su perfil, establecer conexiones con otros usuarios, intercambiar mensajes privados y compartir publicaciones e imágenes dentro del entorno institucional. La plataforma estará enfocada en facilitar la comunicación y la interacción social entre estudiantes y demás integrantes de la universidad, funcionando como un complemento al Campus Virtual tradicional. El proyecto contempla las funcionalidades principales de una red social interna, pero no incluye la gestión académica formal (como inscripción a materias, carga de notas o administración de cursadas), ya que su propósito está centrado en la comunicación y la integración de la comunidad universitaria.
 
@@ -82,7 +82,7 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
  ```
 
 ### Verificamos que la imagen ya se encuentra en AWS
-<img width="1561" height="175" alt="image" src="https://github.com/user-attachments/assets/91897ff8-428e-4f92-afd3-8953f34160eb" />
+<img width="1578" height="461" alt="{C4858593-5A94-4A30-BD05-3B1F71D83717}" src="https://github.com/user-attachments/assets/e7a9b191-9f28-4095-a0ed-0b6d0a9af333" />
 
 ### Creacion de instancias ECS
 
@@ -101,10 +101,11 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
 <img width="1336" height="142" alt="image" src="https://github.com/user-attachments/assets/eed4f60b-e984-451f-9d13-146dcfadef21" />
 
 #### ⚠️ !IMPORTANTE: Mapear los puertos en donde se ejecutan las aplicaciones y definirlas en la instancia. En este caso es un codigo escrito en React, por defecto se usa el puerto 3000
-<img width="1339" height="194" alt="image" src="https://github.com/user-attachments/assets/91fb7488-12b1-419e-8333-d4b2d7cf0f81" />
+<img width="1287" height="209" alt="{F0B0F9DD-1672-4363-84CF-099FFF836E11}" src="https://github.com/user-attachments/assets/00241c47-e584-438b-9e4b-de49b8de102e" />
 
 #### ⚠️ !IMPORTANTE: Ingresar las variables de entorno que son necesarias, en este caso la URI que apunta al backned (Se recomienda tener el servicio de Backend deplegado antes que el Frontend)
-<img width="950" height="183" alt="image" src="https://github.com/user-attachments/assets/88491993-5422-4745-9ed6-c43ad6bdfd7a" />
+<img width="967" height="524" alt="{DAE17173-5DBA-462D-A2C1-438D94CB32EA}" src="https://github.com/user-attachments/assets/e7f9a53c-bb9c-4be7-ad87-089016205ae2" />
+
 
 #### ✅ Finalizado estos, podremos hacer clic en "Crear"
 
@@ -147,7 +148,12 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
 <img width="203" height="54" alt="image" src="https://github.com/user-attachments/assets/8f501542-779d-4a32-a4ba-f960abca3af1" />
 <img width="1593" height="238" alt="image" src="https://github.com/user-attachments/assets/f3e00367-f660-4fe9-9c2d-61c633934192" />
 
-✅ Finalizado estos pasos, dentro de la tarea podremos entrar a nuestra web desplegada via la ip publica creada al crear la tarea.
+✅ Finalizado estos pasos, dentro de la tarea podremos verificar via internet si el servicio backend está corriendo.
 
-<img width="1756" height="668" alt="image" src="https://github.com/user-attachments/assets/3ed88821-d98f-4563-9394-08cf0298ec7c" />
+<img width="888" height="322" alt="{93445AAD-77A1-4971-9E60-D9F0608FCA11}" src="https://github.com/user-attachments/assets/70d9452b-9385-4214-a2f9-fb3a70cd8b08" />
+
+⚠️Es importante aclarár que al implementar spring security en nuestro codigo y la autenticacion por token, es comun que al intentar ingresar al back via navegado, esta sea rechazado por no haber iniciado seccion y haber pasado un token  por el heather de autentizacion. Error 403 Forbidden.
+<img width="1222" height="277" alt="{A2296112-2A79-4F4F-A19B-1C2E6F8EE121}" src="https://github.com/user-attachments/assets/6d04d55a-a4b3-418e-a366-6e5a7c2adb0b" />
+
+
 
