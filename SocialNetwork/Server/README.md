@@ -100,10 +100,10 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
 #### Le indicamos la imagen a usar, haciendo en el explorador de imagenes de ECR o copiamos y pegamos la URI de la imagen
 <img width="1336" height="142" alt="image" src="https://github.com/user-attachments/assets/eed4f60b-e984-451f-9d13-146dcfadef21" />
 
-#### ⚠️ !IMPORTANTE: Mapear los puertos en donde se ejecutan las aplicaciones y definirlas en la instancia. En este caso es un codigo escrito en React, por defecto se usa el puerto 3000
+#### ⚠️ !IMPORTANTE: Mapear los puertos en donde se ejecutan las aplicaciones y definirlas en la instancia. En este caso es un codigo escrito en Java con Spring boot, por defecto se usa el puerto 8080
 <img width="1287" height="209" alt="{F0B0F9DD-1672-4363-84CF-099FFF836E11}" src="https://github.com/user-attachments/assets/00241c47-e584-438b-9e4b-de49b8de102e" />
 
-#### ⚠️ !IMPORTANTE: Ingresar las variables de entorno que son necesarias, en este caso la URI que apunta al backned (Se recomienda tener el servicio de Backend deplegado antes que el Frontend)
+#### ⚠️ !IMPORTANTE: Ingresar las variables de entorno ya que con ella le decimos que partes del servicios van a funcionar y cual no, el tipo de servicio que va a ser y las credenciales de base de datos.
 <img width="967" height="524" alt="{DAE17173-5DBA-462D-A2C1-438D94CB32EA}" src="https://github.com/user-attachments/assets/e7f9a53c-bb9c-4be7-ad87-089016205ae2" />
 
 
@@ -140,7 +140,7 @@ Dentro de nuestra terminal de comando, damos de alta la variabole de entorno que
 
 
 
-#### ⚠️ Es importante tambien definir a que grupo de seguridad pertenecerá esta instancia, ya que por temas de reglas de firedwall, podriamos tener impedimento el poder acceder al servicio desde internet
+#### ⚠️ Es importante tambien definir a que grupo de seguridad pertenecerá esta instancia, ya que por temas de reglas de firewall, podriamos tener impedimento el poder acceder al servicio desde internet
 <img width="1176" height="211" alt="image" src="https://github.com/user-attachments/assets/46aa2ed6-cdf1-4ffa-ae61-8fa2e9ee9613" />
 
 
